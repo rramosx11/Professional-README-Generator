@@ -1,0 +1,37 @@
+
+  # readme
+
+  ## [Description](#table-of-contents)
+
+  blah
+
+  ## Table-of-Contents
+
+  * [Installation](#description)
+  * [Usage](#description)
+  
+  * [Contributing](#contribute)
+  * [Tests](#tests)
+  * [Questions](#questions)
+  
+  ## [Installation](#table-of-contents)
+
+  npm i
+
+  ## [Usage](#table-of-contents)
+
+  Blah
+
+  ## [Contributing](#table-of-contents)
+
+  blah
+
+  ## [Tests](#table-of-contents)
+
+  npm test
+
+  ## [Questions](#table-of-contents)
+
+  Please contact me using the following links:
+  [GitHub](https://github.com/rramosx11)
+  [Email: rodolforamosd11@gmail.com](mailto:rodolforamosd11@gmail.com)
