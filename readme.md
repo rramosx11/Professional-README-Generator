@@ -1,6 +1,4 @@
-# ${data.title}
-
-## ${renderLicenseBadge(data.license)}
+# Professional-README-Generator
 
 ## Table-of-Contents
 
@@ -33,6 +31,6 @@ Tests
 
 ## [Questions](#table-of-contents)
 
-If you have any questions about the repo, open an issue or contact me directly at my email -[Email:rodolforamosd11@gmail.com](mailto:rodolforamosd11@gmail.com)<br>
+If you have any questions about the repo, open an issue or contact me directly at my email - [Email:rodolforamosd11@gmail.com](mailto:rodolforamosd11@gmail.com).<br>
 
-You can find more of my work at my [GitHub](https://github.com/rramosx11)
+You can find more of my work at my [GitHub](https://github.com/rramosx11).

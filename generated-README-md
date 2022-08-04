@@ -1,49 +1,48 @@
 
-  # d
+  # Beb
 
-  ## ![License: MIT](https://img.shields.io/badge/License-agpl-blue.svg)
+  ## ![License: MIT](https://img.shields.io/badge/License-mit-blue.svg)
 
   ## [Description](#table-of-contents)
 
-  d
+  beb
 
   ## Table-of-Contents
 
   * [Installation](#description)
   * [Usage](#usage)
     
-  *agpl
+  * [License](https://choosealicense.com/licenses/mit)
   * [Contributing](#contribute)
   * [Tests](#tests)
   * [Questions](#questions)
   
   ## [Installation](#table-of-contents)
 
-  npm i
+  To install necessary dependencies, run the following command:<br>
+    npm i
 
   ## [Usage](#table-of-contents)
 
-  
+  beb
 
   
   ## [License](#table-of-contents) 
     
   This project is licensed under the 
-  agpl license
+  mit license.
     
 
   ## [Contributing](#table-of-contents)
 
-  
+  beb beb beb
 
   ## [Tests](#table-of-contents)
 
-  npm test
+  To run tests, run the following command:<br>
+    npm test
 
   ## [Questions](#table-of-contents)
 
-  If you have any questions about the repo, open an issue or contact me directly at:
-
-  [Email: rodolforamosd11@gmail.com](mailto:rodolforamosd11@gmail.com)
-  You can find more of my work at
-  [GitHub](https://github.com/rramosx11)
+  If you have any questions about the repo, open an issue or contact me directly at my email - [rodolforamosd11@gmail.com](mailto:rodolforamosd11@gmail.com).<br>
+  You can find more of my work at my [GitHub](https://github.com/rramosx11).

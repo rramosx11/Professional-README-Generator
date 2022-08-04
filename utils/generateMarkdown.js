@@ -13,7 +13,7 @@ function renderLicenseBadge(license) {
 function renderLicenseLink(license) {
   if (license !== "no license") {
     return `
-  *${license}`;
+  * [License](https://choosealicense.com/licenses/${license})`;
   } else {
     return "";
   }
@@ -27,7 +27,7 @@ function renderLicenseSection(license) {
   ## [License](#table-of-contents) 
     
   This project is licensed under the 
-  ${license} license
+  ${license} license.
     `;
   } else {
     return "";
@@ -56,7 +56,8 @@ function generateMarkdown(data) {
   
   ## [Installation](#table-of-contents)
 
-  ${data.install}
+  To install necessary dependencies, run the following command:<br>
+    ${data.install}
 
   ## [Usage](#table-of-contents)
 
@@ -70,15 +71,17 @@ function generateMarkdown(data) {
 
   ## [Tests](#table-of-contents)
 
-  ${data.tests}
+  To run tests, run the following command:<br>
+    ${data.tests}
 
   ## [Questions](#table-of-contents)
 
-  If you have any questions about the repo, open an issue or contact me directly at:
-
-  [Email:${data.email}](mailto:${data.email})
-  You can find more of my work at
-  [GitHub](https://github.com/${data.github})
+  If you have any questions about the repo, open an issue or contact me directly at my email - [${
+    data.email
+  }](mailto:${data.email}).<br>
+  You can find more of my work at my [GitHub](https://github.com/${
+    data.github
+  }).
 `;
 }
 
