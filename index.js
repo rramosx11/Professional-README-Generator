@@ -83,7 +83,7 @@ const questions = [
 
 const fileContent = (fileContent) => {
   try {
-    fs.writeFileSync("./README-md", fileContent);
+    fs.writeFileSync("./generated-README-md", fileContent);
   } catch (err) {
     console.error(err);
   }
