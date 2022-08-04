@@ -35,6 +35,6 @@ Tests
 
 If you have any questions about the repo, open an issue or contact me directly at:
 
-[Email:${rodolforamosd11@gmail.com}](mailto:${rodolforamosd11@gmail.com})
+[Email:${rodolforamosd11@gmail.com}](mailto:rodolforamosd11@gmail.com)<br>
 You can find more of my work at my
-[GitHub](https://github.com/${rramosx11})
+[GitHub](https://github.com/rramosx11)
