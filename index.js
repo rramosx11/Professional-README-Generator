@@ -92,6 +92,7 @@ const fileContent = (fileContent) => {
   } catch (err) {
     console.error(err);
   }
+  console.log("File Created!");
 };
 // TODO: Create a function to initialize app
 function init() {
