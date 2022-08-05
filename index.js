@@ -67,6 +67,11 @@ const questions = [
   },
   {
     type: "input",
+    name: "contribute",
+    message: "What does the user need to know about contributing to the repo?",
+  },
+  {
+    type: "input",
     name: "tests",
     message: "What command should be run to run tests?",
     default: "npm test",
@@ -75,11 +80,6 @@ const questions = [
     type: "input",
     name: "usage",
     message: "What does the user need to know about using the repo?",
-  },
-  {
-    type: "input",
-    name: "contribute",
-    message: "What does the user need to know about contributing to the repo?",
   },
 ];
 
