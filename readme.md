@@ -32,7 +32,7 @@ I have also included a video with a demo of the project, and I also provided two
 
 ![Demo-Download](https://github.com/rramosx11/Professional-README-Generator/blob/main/assets/README-Generator.mp4)
 
-![Demo-Online-Link](https://watch.screencastify.com/v/5cRTPDCVsDyMCyCRVj7a)
+![Demo-YouTube-Link](https://www.youtube.com/watch?v=O_8ztMHr0z4)
 
 ![No License](https://github.com/rramosx11/Professional-README-Generator/blob/main/assets/withoutlicense.png)
 
