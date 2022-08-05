@@ -28,6 +28,14 @@ Please download the files from the link below. You can copy these files to a dir
 
 After installation is complete, run the following code: ‘node index’ in the terminal. Answer the prompts and after completion, you should see a console log showing your answers to your prompts, a message that says ‘File created!’, and you should see your file called ‘generated-README’. It’s generated in mark down syntax so you can copy and paste that code into your project!
 
+I have also included a video with a demo of the project, and I also provided two screenshots. One image is if you have a project that uses a license, and the other image will demonstrate how the readme looks like if you have no license.
+
+![Demo](https://github.com/rramosx11/Professional-README-Generator/blob/main/assets/README-Generator.mp4)
+
+![No License](https://github.com/rramosx11/Professional-README-Generator/blob/main/assets/withoutlicense.png)
+
+![License](https://github.com/rramosx11/Professional-README-Generator/blob/main/assets/withlicense.png)
+
 ## [Contributing](#table-of-contents)
 
 Thank you for your interest in contributing; however, no contributions will be needed to Professional-README-Generator project.
