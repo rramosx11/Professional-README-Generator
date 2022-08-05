@@ -21,7 +21,7 @@ This README generator will allow the user to answer a series of specific questio
 
 Please download the files from the link below. You can copy these files to a directory in your local computer, or you can also clone it to directory. Open the file in VS Code. You want to make sure that Inqurier and Node are installed in your directory.
 
-[Download-Link](https://github.com/rramosx11/Professional-README-Generator)<br>
+[File-Download-Link](https://github.com/rramosx11/Professional-README-Generator)<br>
 [Inquirer-Package](https://www.npmjs.com/package/inquirer)
 
 ## [Usage](#table-of-contents)
@@ -30,7 +30,9 @@ After installation is complete, run the following code: ‘node index’ in the 
 
 I have also included a video with a demo of the project, and I also provided two screenshots. One image is if you have a project that uses a license, and the other image will demonstrate how the readme looks like if you have no license.
 
-![Demo](https://github.com/rramosx11/Professional-README-Generator/blob/main/assets/README-Generator.mp4)
+![Demo-Download](https://github.com/rramosx11/Professional-README-Generator/blob/main/assets/README-Generator.mp4)
+
+![Demo-Online-Link](https://watch.screencastify.com/v/5cRTPDCVsDyMCyCRVj7a)
 
 ![No License](https://github.com/rramosx11/Professional-README-Generator/blob/main/assets/withoutlicense.png)
 
