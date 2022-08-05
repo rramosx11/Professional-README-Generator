@@ -1,11 +1,21 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
-  if (license !== "no license") {
-    return `![License: MIT](https://img.shields.io/badge/License-${license}-blue.svg)`;
-  } else {
-    return "";
+  switch (license) {
+    case "mit":
+      return `![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)`;
+    case "agpl":
+      return `![License: MIT](https://img.shields.io/badge/License-AGPL-blue.svg)`;
+    case "apache":
+      return `![License: MIT](https://img.shields.io/badge/License-Apache-blue.svg)`;
+    default:
+      return ``;
   }
+  // if (license !== "no license") {
+  //   return `![License: MIT](https://img.shields.io/badge/License-${license}-blue.svg)`;
+  // } else {
+  //   return "";
+  // }
 }
 
 // TODO: Create a function that returns the license link
@@ -13,7 +23,7 @@ function renderLicenseBadge(license) {
 function renderLicenseLink(license) {
   if (license !== "no license") {
     return `
-  * [License](https://choosealicense.com/licenses/${license})`;
+  [${license.toUpperCase()}](https://choosealicense.com/licenses/${license})`;
   } else {
     return "";
   }
@@ -26,8 +36,19 @@ function renderLicenseSection(license) {
     return `
   ## [License](#table-of-contents) 
     
-  This project is licensed under the 
-  ${license} license.
+  This project is licensed under the following license ${renderLicenseLink(
+    license
+  )}
+    `;
+  } else {
+    return "";
+  }
+}
+
+function renderLicenseNav(license) {
+  if (license !== "no license") {
+    return `
+  * [License](#license)
     `;
   } else {
     return "";
@@ -49,7 +70,7 @@ function generateMarkdown(data) {
 
   * [Installation](#description)
   * [Usage](#usage)
-    ${renderLicenseLink(data.license)}
+  ${renderLicenseNav(data.license)}
   * [Contributing](#contribute)
   * [Tests](#tests)
   * [Questions](#questions)
@@ -57,7 +78,7 @@ function generateMarkdown(data) {
   ## [Installation](#table-of-contents)
 
   To install necessary dependencies, run the following command:<br>
-    ${data.install}
+  > ${data.install}
 
   ## [Usage](#table-of-contents)
 
@@ -72,7 +93,7 @@ function generateMarkdown(data) {
   ## [Tests](#table-of-contents)
 
   To run tests, run the following command:<br>
-    ${data.tests}
+  > ${data.tests}
 
   ## [Questions](#table-of-contents)
 

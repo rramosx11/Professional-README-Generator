@@ -1,18 +1,19 @@
 
-  # Beb
+  # README-Generator 
 
-  ## ![License: MIT](https://img.shields.io/badge/License-mit-blue.svg)
+  ## ![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
 
   ## [Description](#table-of-contents)
 
-  beb
+  This is a readme generator.
 
   ## Table-of-Contents
 
   * [Installation](#description)
   * [Usage](#usage)
+  
+  * [License](#license)
     
-  * [License](https://choosealicense.com/licenses/mit)
   * [Contributing](#contribute)
   * [Tests](#tests)
   * [Questions](#questions)
@@ -20,27 +21,27 @@
   ## [Installation](#table-of-contents)
 
   To install necessary dependencies, run the following command:<br>
-    npm i
+  > npm i
 
   ## [Usage](#table-of-contents)
 
-  beb
+  Download the necessary files.
 
   
   ## [License](#table-of-contents) 
     
-  This project is licensed under the 
-  mit license.
+  This project is licensed under the following license 
+  [MIT](https://choosealicense.com/licenses/mit)
     
 
   ## [Contributing](#table-of-contents)
 
-  beb beb beb
+  Please email me if before contributing.
 
   ## [Tests](#table-of-contents)
 
   To run tests, run the following command:<br>
-    npm test
+  > npm test
 
   ## [Questions](#table-of-contents)
 
